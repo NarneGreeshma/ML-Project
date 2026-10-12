@@ -20,3 +20,33 @@ backend/users.db
 
 # Logs
 *.log
+C:\Users\narne\OneDrive\Desktop\TrafficCongestionProject>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        renamed:    backend/app.py -> TrafficCongestionProject/backend/app.py
+        renamed:    backend/auth_api.py -> TrafficCongestionProject/backend/auth_api.py
+        renamed:    backend/requirements.txt -> TrafficCongestionProject/backend/requirements.txt
+        renamed:    backend/traffic_congestion_final_model.pkl -> TrafficCongestionProject/backend/traffic_congestion_final_model.pkl
+        new file:   TrafficCongestionProject/backend/users.db
+        renamed:    frontend/.gitignore -> TrafficCongestionProject/frontend/.gitignore
+        renamed:    frontend/README.md -> TrafficCongestionProject/frontend/README.md
+        renamed:    frontend/eslint.config.js -> TrafficCongestionProject/frontend/eslint.config.js
+        renamed:    frontend/index.html -> TrafficCongestionProject/frontend/index.html
+        renamed:    frontend/package-lock.json -> TrafficCongestionProject/frontend/package-lock.json
+        renamed:    frontend/package.json -> TrafficCongestionProject/frontend/package.json
+        renamed:    frontend/public/favicon.svg -> TrafficCongestionProject/frontend/public/favicon.svg
+        renamed:    frontend/public/icons.svg -> TrafficCongestionProject/frontend/public/icons.svg
+        renamed:    frontend/src/App.css -> TrafficCongestionProject/frontend/src/App.css
+        renamed:    frontend/src/App.jsx -> TrafficCongestionProject/frontend/src/App.jsx
+        renamed:    frontend/src/Auth.css -> TrafficCongestionProject/frontend/src/Auth.css
+        renamed:    frontend/src/Auth.jsx -> TrafficCongestionProject/frontend/src/Auth.jsx
+        renamed:    frontend/src/AuthGate.jsx -> TrafficCongestionProject/frontend/src/AuthGate.jsx
+        renamed:    frontend/src/assets/hero.png -> TrafficCongestionProject/frontend/src/assets/hero.png
+        renamed:    frontend/src/assets/react.svg -> TrafficCongestionProject/frontend/src/assets/react.svg
+        renamed:    frontend/src/assets/vite.svg -> TrafficCongestionProject/frontend/src/assets/vite.svg
+        renamed:    frontend/src/index.css -> TrafficCongestionProject/frontend/src/index.css
+        renamed:    frontend/src/main.jsx -> TrafficCongestionProject/frontend/src/main.jsx
+        renamed:    frontend/vite.config.js -> TrafficCongestionProject/frontend/vite.config.js
