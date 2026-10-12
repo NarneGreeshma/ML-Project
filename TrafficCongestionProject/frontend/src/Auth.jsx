@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Auth.css";
 
-const API = "http://127.0.0.1:5000";
+const API = import.meta.env.VITE_API_URL || "http://127.0.0.1:5000";
 
 export default function Auth({ onAuthenticated }) {
   const [mode, setMode] = useState("login");

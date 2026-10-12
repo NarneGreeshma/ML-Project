@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import "./App.css";
 
-const API = "http://127.0.0.1:5000";
+const API = import.meta.env.VITE_API_URL || "http://127.0.0.1:5000";
 const initialForm = {
   location_id: 1, traffic_volume: 850, avg_vehicle_speed: 25,
   vehicle_count_cars: 700, vehicle_count_trucks: 50, vehicle_count_bikes: 30,
